@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: amarsmart403/java-k8s-app
         name: springboot
         ports:
         - name: springboot
