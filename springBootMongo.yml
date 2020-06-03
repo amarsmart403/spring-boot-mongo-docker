@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: amarsmart403/java-k8s-app
+      - image: amarsmart403/spring-boot-mongo
         name: springboot
         ports:
         - name: springboot
